@@ -16,4 +16,4 @@ class BiometricsPoint {
     steps: (json['steps'] as num?)?.toInt(),
     sleepScore: (json['sleepScore'] as num?)?.toInt(),
   );
-}
+}// Auto-generated comment for commit - 1763734963
