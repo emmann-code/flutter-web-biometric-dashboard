@@ -17,3 +17,4 @@ class BiometricsPoint {
     sleepScore: (json['sleepScore'] as num?)?.toInt(),
   );
 }// Auto-generated comment for commit - 1763734963
+// Auto-generated comment for commit - 1763734965
