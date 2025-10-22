@@ -1,0 +1,33 @@
+import 'package:flutter/foundation.dart';
+
+class JournalEntry {
+  final String id;
+  final DateTime date;
+  final Map<String, dynamic> metrics;
+  final String? notes;
+
+  JournalEntry({
+    required this.id,
+    required this.date,
+    required this.metrics,
+    this.notes,
+  });
+
+  factory JournalEntry.fromJson(Map<String, dynamic> json) {
+    return JournalEntry(
+      id: json['id'] as String,
+      date: DateTime.parse(json['date'] as String),
+      metrics: Map<String, dynamic>.from(json['metrics'] as Map),
+      notes: json['notes'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'date': date.toIso8601String(),
+      'metrics': metrics,
+      if (notes != null) 'notes': notes,
+    };
+  }
+}

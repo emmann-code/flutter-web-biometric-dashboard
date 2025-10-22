@@ -1,0 +1,8 @@
+import 'package:flutter/foundation.dart';
+
+
+/// ValueNotifier that holds the currently selected date (for crosshair).
+/// Other UI components listen to this to keep tooltips synced.
+class SyncController extends ChangeNotifier {
+  DateTime? _s;
+}
