@@ -19,7 +19,7 @@ class ChartStack extends StatefulWidget {
   final String Function(double) valueFormatter;
 
   const ChartStack({
-    Key? key,
+    super.key,
     required this.title,
     this.color = Colors.blue,
     this.showRollingAverage = false,
@@ -30,7 +30,7 @@ class ChartStack extends StatefulWidget {
     this.yAxisLabel,
     required this.valueExtractor,
     required this.valueFormatter,
-  }) : super(key: key);
+  });
 
   @override
   _ChartStackState createState() => _ChartStackState();
@@ -250,37 +250,4 @@ class _ChartStackState extends State<ChartStack> {
     );
   }
 }
-// Auto-generated comment for commit - 1763734959
-// Auto-generated comment for commit - 1763734961
-// Auto-generated comment for commit - 1763734961
-// Auto-generated comment for commit - 1763734968
-// Auto-generated comment for commit - 1763734984
-// Auto-generated comment for commit - 1763734986
-// Auto-generated comment for commit - 1763734992
-// Auto-generated comment for commit - 1763734997
-// Auto-generated comment for commit - 1763734997
-// Auto-generated comment for commit - 1763734998
-// Auto-generated comment for commit - 1763735042
-// Auto-generated comment for commit - 1763735044
-// Auto-generated comment for commit - 1763735050
-// Auto-generated comment for commit - 1763735061
-// Auto-generated comment for commit - 1763735062
-// Auto-generated comment for commit - 1763735065
-// Auto-generated comment for commit - 1763735072
-// Auto-generated comment for commit - 1763735078
-// Auto-generated comment for commit - 1763735082
-// Auto-generated comment for commit - 1763735091
-// Auto-generated comment for commit - 1763735093
-// Auto-generated comment for commit - 1763735100
-// Auto-generated comment for commit - 1763735101
-// Auto-generated comment for commit - 1763735106
-// Auto-generated comment for commit - 1763735114
-// Auto-generated comment for commit - 1763735118
-// Auto-generated comment for commit - 1763735136
-// Auto-generated comment for commit - 1763735146
-// Auto-generated comment for commit - 1763735148
-// Auto-generated comment for commit - 1763735151
-// Auto-generated comment for commit - 1763735157
-// Auto-generated comment for commit - 1763735176
-// Auto-generated comment for commit - 1763735179
-// Auto-generated comment for commit - 1763735182
+// Auto-generated comment for commit - 1780350392

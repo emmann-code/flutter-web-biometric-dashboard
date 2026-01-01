@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set the date range for backdated commits
-START_DATE="2025-04-01"
-END_DATE="2025-08-28"
+START_DATE="2026-01-01"
+END_DATE="2026-05-31"
 
 # Number of commits per day
 MIN_COMMITS=2
@@ -76,7 +76,7 @@ do
     MIN=$((RANDOM % 60))
     SEC=$((RANDOM % 60))
 
-    COMMIT_TIME="$CURRENT $HOUR:$MIN:$SSEC"
+    COMMIT_TIME="$CURRENT $HOUR:$MIN:$SEC"
     
     # Add all changes
     git add . > /dev/null 2>&1

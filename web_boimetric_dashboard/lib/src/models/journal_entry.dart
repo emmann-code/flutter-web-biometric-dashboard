@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 
 class JournalEntry {
   final String id;
@@ -31,34 +30,3 @@ class JournalEntry {
     };
   }
 }
-// Auto-generated comment for commit - 1763734978
-// Auto-generated comment for commit - 1763734982
-// Auto-generated comment for commit - 1763734988
-// Auto-generated comment for commit - 1763735012
-// Auto-generated comment for commit - 1763735014
-// Auto-generated comment for commit - 1763735022
-// Auto-generated comment for commit - 1763735029
-// Auto-generated comment for commit - 1763735035
-// Auto-generated comment for commit - 1763735054
-// Auto-generated comment for commit - 1763735060
-// Auto-generated comment for commit - 1763735063
-// Auto-generated comment for commit - 1763735066
-// Auto-generated comment for commit - 1763735074
-// Auto-generated comment for commit - 1763735078
-// Auto-generated comment for commit - 1763735090
-// Auto-generated comment for commit - 1763735123
-// Auto-generated comment for commit - 1763735124
-// Auto-generated comment for commit - 1763735131
-// Auto-generated comment for commit - 1763735132
-// Auto-generated comment for commit - 1763735135
-// Auto-generated comment for commit - 1763735138
-// Auto-generated comment for commit - 1763735141
-// Auto-generated comment for commit - 1763735144
-// Auto-generated comment for commit - 1763735145
-// Auto-generated comment for commit - 1763735147
-// Auto-generated comment for commit - 1763735162
-// Auto-generated comment for commit - 1763735167
-// Auto-generated comment for commit - 1763735172
-// Auto-generated comment for commit - 1763735173
-// Auto-generated comment for commit - 1763735176
-// Auto-generated comment for commit - 1763735183

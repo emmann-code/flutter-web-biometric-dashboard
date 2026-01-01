@@ -7,7 +7,7 @@ import 'models/biometric_data.dart';
 import 'widgets/chart_stack.dart';
 
 class BiometricsApp extends StatelessWidget {
-  const BiometricsApp({Key? key}) : super(key: key);
+  const BiometricsApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,14 +15,12 @@ class BiometricsApp extends StatelessWidget {
       title: 'Biometrics Dashboard',
       theme: ThemeData.light().copyWith(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        useMaterial3: true,
       ),
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blue,
           brightness: Brightness.dark,
         ),
-        useMaterial3: true,
       ),
       themeMode: ThemeMode.system,
       home: const DashboardPage(),
@@ -31,7 +29,7 @@ class BiometricsApp extends StatelessWidget {
 }
 
 class DashboardPage extends StatefulWidget {
-  const DashboardPage({Key? key}) : super(key: key);
+  const DashboardPage({super.key});
 
   @override
   State<DashboardPage> createState() => _DashboardPageState();
@@ -183,7 +181,7 @@ class _DashboardPageState extends State<DashboardPage> {
             _buildMetricRow('RHR', '${point.rhr ?? 'N/A'} bpm', Colors.green),
             _buildMetricRow(
               'Steps',
-              '${point.steps?.toStringAsFixed(0) ?? 'N/A'}',
+              point.steps?.toStringAsFixed(0) ?? 'N/A',
               Colors.orange,
             ),
             if (point.mood != null) ...[
@@ -237,13 +235,3 @@ class _DashboardPageState extends State<DashboardPage> {
     );
   }
 }
-// Auto-generated comment for commit - 1763734966
-// Auto-generated comment for commit - 1763735047
-// Auto-generated comment for commit - 1763735058
-// Auto-generated comment for commit - 1763735059
-// Auto-generated comment for commit - 1763735064
-// Auto-generated comment for commit - 1763735066
-// Auto-generated comment for commit - 1763735089
-// Auto-generated comment for commit - 1763735118
-// Auto-generated comment for commit - 1763735120
-// Auto-generated comment for commit - 1763735155
