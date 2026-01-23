@@ -153,3 +153,4 @@ class BiometricController extends ChangeNotifier {
 // Auto-generated comment for commit - 1780350406
 // Auto-generated comment for commit - 1780350409
 // Auto-generated comment for commit - 1780350412
+// Auto-generated comment for commit - 1780350414
