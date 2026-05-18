@@ -173,3 +173,4 @@ class BiometricService with ChangeNotifier {
 // Auto-generated comment for commit - 1780350587
 // Auto-generated comment for commit - 1780350591
 // Auto-generated comment for commit - 1780350597
+// Auto-generated comment for commit - 1780350598
